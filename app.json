@@ -1,39 +1,38 @@
 {
   "expo": {
-    "name": "Estoril Esportes",
-    "slug": "estorilesportes",
-    "version": "1.0.3",
+    "name": "Basquete Sport",
+    "slug": "basquetsport",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#FC6405"
+      "backgroundColor": "#D61F27"
     },
     "androidNavigationBar": {
       "barStyle": "light-content",
-      "backgroundColor": "#FC6405"
+      "backgroundColor": "#D61F27"
     },
     "updates": {
       "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/ff112dc6-dc99-47e4-8579-d795bf9e68c8"
+      "url": "https://u.expo.dev/caa4e206-ca76-43dc-931e-a1bed2433ab3"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "android": {
-      "versionCode": 3,
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#FC6405",
-        "backgroundImage": "./assets/icon.png"
+        "backgroundColor": "#D61F27"
       },
-      "package": "com.sporti.estorilesportes",
+      "package": "com.sporti.basquetsport",
       "permissions": []
     },
     "ios": {
-      "buildNumber": "3",
-      "bundleIdentifier": "com.sporti.estorilesportes",
+      "buildNumber": "1",
+      "bundleIdentifier": "com.sporti.basquetsport",
       "supportsTablet": true,
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
@@ -41,6 +40,14 @@
       }
     },
     "entryPoint": "node_modules/expo/AppEntry.js",
-    "description": ""
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "caa4e206-ca76-43dc-931e-a1bed2433ab3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
 }
